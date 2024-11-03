@@ -2,7 +2,7 @@
 function custom_team_member_block() {
   wp_register_script(
       'teamMemberBlock-js',
-      get_template_directory_uri() . '/block/block-team/block.js',
+      get_template_directory_uri() . '/block/block-team/teamMemberBlock.js',
       array( 'wp-blocks', 'wp-element', 'wp-editor' )
   );
 
