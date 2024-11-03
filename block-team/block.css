@@ -1,0 +1,28 @@
+.team-member {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.team-member__info h3 {
+  margin: 0;
+  font-size: 1.25em;
+}
+.team-member__info p {
+  margin: 0;
+  color: #666;
+}
+.team-member__details {
+  display: none;
+  margin-top: 15px;
+  padding: 15px;
+  background: #f9f9f9;
+  border-radius: 4px;
+}
+.team-member__details.is-visible {
+  display: block;
+}
+button {
+  margin-top: 10px;
+}

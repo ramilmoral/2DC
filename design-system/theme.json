@@ -1,0 +1,80 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "settings": {
+    "appearanceTools": false,
+    "color": {
+      "palette": [
+        {
+          "name": "black",
+          "slug": "black",
+          "color": "#000000"
+        },
+        {
+          "name": "dark",
+          "slug": "dark",
+          "color": "#222222"
+        },
+        {
+          "name": "yellow",
+          "slug": "yellow",
+          "color": "#EDE236"
+        },
+        {
+          "name": "white",
+          "slug": "white",
+          "color": "#FFFFFF"
+        },
+        {
+          "name": "ash",
+          "slug": "ash",
+          "color": "#F2F2F2"
+        },
+        {
+          "name": "maroon",
+          "slug": "maroon",
+          "color": "#913D2E"
+        }
+      ]
+    },
+    "typography": {
+      "customFontSize": true,
+      "fontWeight": true,
+      "lineHeight": true,
+      "fontFamilies": [
+        {
+          "fontFamily": "Roboto, sans-serif",
+          "slug": "roboto",
+          "name": "Roboto",
+          "weights": ["300", "400", "500", "600", "700", "800"]
+        }
+      ],
+      "fontSizes": [
+        {
+          "slug": "heading-1",
+          "size": "48px",
+          "lineHeight": "60px",
+          "name": "Heading 1"
+        },
+        {
+          "slug": "heading-2",
+          "size": "40px",
+          "lineHeight": "50px",
+          "name": "Heading 2"
+        },
+        {
+          "slug": "heading-3",
+          "size": "36px",
+          "lineHeight": "40px",
+          "name": "Heading 3"
+        },
+        {
+          "slug": "paragraph",
+          "size": "16px",
+          "lineHeight": "24px",
+          "name": "Paragraph"
+        }
+      ]
+    }
+  }
+}
